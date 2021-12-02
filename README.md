@@ -82,5 +82,23 @@ The following project analyzes player and team performace for the 2020/2021 Engl
 ### Power BI Report ###
 
 The [English Premier League 2020/2021 Report](https://app.powerbi.com/reportEmbed?reportId=699bc882-9cff-4179-9e30-d8987db11673&autoAuth=true&ctid=5b973f99-77df-4beb-b27d-aa0c70b8482c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWV1cm9wZS1ub3J0aC1iLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9) displays information for the 20 teams in the English Premier League during the 2020/2021 season. The visualizations in the report are described below:<br>
+
 #### Team Filter ####
-<img src = "Screenshots/Slicer.png">
+- The slicer/filter allows the viewer to filter the visualizations based on the team.<br> 
+<img src = "Screenshots/Slicer.png"><br>
+
+#### Team Information ####
+- The visualizations cards display information for the entire league as well as for each team:
+   - *Market Value*: The aggreated player value<br>
+   - *Final Standing*: The finishing place for the selected team (only available when filtering for a team)<br>
+   - *Foreigner Rate*: The percentage of players not from the UK for the selected team (only availalbe when filtering for a team)<br>
+   - *MVP - Goalkeeper*: The best performing goalkeeper during the 2020/2021 season<br>
+   - *MVP - Defender*: The best performing defender during the 2020/2021 season<br>
+   - *MVP - Midfielder*: The best performing midfielder during the 2020/2021 season<br>
+   - *MVP - Forward*: The best performing forward during the 2020/2021 season<br>
+<img src = "Screenshots/TeamInfo.png"><br>
+
+#### Goal Differential ####
+- The gauge displays the number of goals allowed (Minimum), number of goals scored (Maximum) and Goal Differential (Value). The gauge distinguishes bewtween those teams who had positive and negative goal differences. 
+<img src = "Screenshots/GD.png"><br>
+
