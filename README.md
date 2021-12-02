@@ -102,3 +102,15 @@ The [English Premier League 2020/2021 Report](https://app.powerbi.com/reportEmbe
 - The gauge displays the number of goals allowed (Minimum), number of goals scored (Maximum) and Goal Differential (Value). The gauge distinguishes bewtween those teams who had positive and negative goal differences. 
 <img src = "Screenshots/GD.png"><br>
 
+#### Standings ####
+- The line chart displays the standings movement for a given team after each Matchday week during the entire season. A higher place indicates a better standing in the table.<br>
+<img src = "Screenshots/Standings.png"><br>
+
+#### Location ####
+- The visualizations show the team's location in the United Kingdom (UK) as well as the city they are located in.<br>
+<img src = "Screenshots/Geography.png"><br>
+
+#### Goals by Player ####
+- The bar graph show the highest scoring players during the 2020/2021 season. Use the scroll on the right hand side to view all players for a given team and the number of goals scored.<br>
+<img src = "Screenshots/Goals.png"><br>
+
