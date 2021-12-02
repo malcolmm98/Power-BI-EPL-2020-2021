@@ -79,5 +79,5 @@ The following project analyzes player and team performace for the 2020/2021 Engl
    |Passes Per Game Rank * Appearances|Midfielder|A midfielder who connects more passes a game is considered to be highly performing|(Rank of Passes Per Game * Number of Appearances)
    |Goals per Game Rank * Appearances|Forward|A forward who scores more goals a game is considered to be highly performing|(Rank of Goals Per Game * Number of Appearances)
    
-
+### Power BI Report ###
  
