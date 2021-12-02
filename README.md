@@ -69,10 +69,14 @@ The following project analyzes player and team performace for the 2020/2021 Engl
    [^4]: Data is assumed to be accurate and complete.
    
    #### *rankings.xlsx*<br> ####
-   Statistics used to calculate the most valuable player (MVP) by performance through a ranking system. Grouped by position (Goalkeeper, Defender, Midfielder, Forward), for each individual, a raw score is calculated by ranking the individuals amongst their peers for each metric and then aggregating to determine an overall score. A normalized score is then calculated to account for differences in the number of fields used and number of players in each position.  
+   Statistics used to calculate the most valuable player (MVP) by performance through a ranking system. Grouped by position (Goalkeeper, Defender, Midfielder, Forward), for each individual, a raw score is calculated by ranking the individuals amongst their peers for each metric and then aggregated to determine an overall score. The better the player performed in a given metric, the higher the rank, thus a higher score.
    
-   The fields used to calculate the MVP are listed in the above section. For each position, the most metric are  Additional fields and their corresponding formulas are provided below:
+   The fields used to calculate the MVP are listed in the above section. For each position, the fields above are used to calculate a score. Additionally, the "most valued" metric for each position is included as a weighted field to determine the highest performing player. These fields are listed below along with their corresponding formulas:
    |Field|Position|Description|Formula|
    |-----|--------|-----------|-------|
-   |Clean Sheets per game|Goalkeeper|
+   |Goals Conceded Per Game Rank * Appearances|Goalkeeper|A goalkeeper who plays many matches without allowing many goals is considered to be highly performing|(Rank of Goals Conceded Per Game * Number of Appearances)
+   |Goals Conceded Per Game Rank * Appearances|Defender|A defender who plays many matches without allowing many goals is considered to be highly performing|(Rank of Goals Conceded Per Game * Number of Appearances)
+   |Passes Per Game Rank * Appearances|Midfielder|A midfielder who connects more passes a game is considered to be highly performing|(Rank of Passes Per Game * Number of Appearances)
+   |Goals per Game Rank * Appearances|Forward|A forward who scores more goals a game is considered to be highly performing|(Rank of Goals Per Game * Number of Appearances)
+   
    
