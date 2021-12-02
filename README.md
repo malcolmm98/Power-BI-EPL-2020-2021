@@ -1,5 +1,5 @@
 # Power BI EPL 2020-2021
-The following project analyzes player and team performace for the 2020/2021 English Premier League Season in the form of a Microsoft Power BI Report.
+The following project analyzes player and team performace for the 2020/2021 English Premier League Season in the form of a Microsoft Power BI Report, available [here](https://app.powerbi.com/reportEmbed?reportId=699bc882-9cff-4179-9e30-d8987db11673&autoAuth=true&ctid=5b973f99-77df-4beb-b27d-aa0c70b8482c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWV1cm9wZS1ub3J0aC1iLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9).
 
 ### Data Sources ###
    #### *crest_pictures.xlsx*<br> ####
